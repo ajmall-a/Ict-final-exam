@@ -20,7 +20,7 @@ function EmailForm({ onOtpSent }) {
 
   return (
     <div className="max-w-md mx-auto mt-8 bg-white p-8 rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold mb-4">Enter Your Email</h2>
+      <h2 className="text-2xl font-bold mb-4">Enter Your EMAIL</h2>
       <form onSubmit={handleSubmit}>
         <label className="block mb-2 text-gray-700">Email:</label>
         <input 

@@ -34,9 +34,9 @@ function OTPForm({ email }) {
         />
         <button 
           type="submit" 
-          className="w-full bg-green-600 text-white py-2 rounded hover:bg-blue-700"
+          className="w-full bg-green-600 text-white py-2 rounded hover:bg-yellow-700"
         >
-          Verify OTP
+          CHECKING OTP
         </button>
       </form>
     </div>
