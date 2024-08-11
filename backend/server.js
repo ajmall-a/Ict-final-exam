@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:5173/', // Replace with your frontend URL
+  origin: 'http://localhost:5000/', // Replace with your frontend URL
   methods: 'GET,POST',
   allowedHeaders: 'Content-Type',
 };
