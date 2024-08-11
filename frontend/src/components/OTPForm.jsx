@@ -10,7 +10,7 @@ function OTPForm({ email }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/verify-otp', { email, otp });
+      const response = await axios.post('http://localhost:5001/api/verify-otp', { email, otp });
 
       if (response.status === 200) {
         navigate('/welcome');

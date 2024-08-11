@@ -10,7 +10,7 @@ function EmailForm({ onOtpSent }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/send-otp', { email });
+      await axios.post('http://localhost:5001/api/send-otp', { email });
       onOtpSent(email);
       navigate('/verify-otp');
     } catch (error) {
