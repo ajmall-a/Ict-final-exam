@@ -34,7 +34,7 @@ function EmailForm({ onOtpSent }) {
           type="submit" 
           className="w-full bg-fuchsia-600 text-white py-2 rounded hover:bg-blue-700"
         >
-          Send OTP
+          SEND OTP
         </button>
       </form>
     </div>
